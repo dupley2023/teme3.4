@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones JavaScript</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Funciones JavaScript</h1>
+    
+    <!-- Formulario para ingresar datos -->
+    <h2>Encontrar el número más grande en un array de números</h2>
+    <form id="numeroMasGrandeForm">
+        <label for="numeros">Ingrese números separados por comas:</label>
+        <input type="text" id="numeros" placeholder="Ejemplo: 10, 5, 30, 8, 15">
+        <button type="button" onclick="encontrarNumeroMasGrande()">Calcular</button>
+        <p id="resultadoNumeroMasGrande"></p>
+    </form>
+
+    <h2>Convertir un string a mayúsculas y reemplazar espacios con guiones bajos</h2>
+    <form id="convertirAMayusculasForm">
+        <label for="texto">Ingrese un texto:</label>
+        <input type="text" id="texto" placeholder="Ejemplo: Hola Mundo JavaScript">
+        <button type="button" onclick="convertirAMayusculasYReemplazarEspacios()">Calcular</button>
+        <p id="resultadoConvertido"></p>
+    </form>
+
+    <h2>Encontrar números primos menores o iguales a un número dado</h2>
+    <form id="numerosPrimosForm">
+        <label for="limite">Ingrese un número límite:</label>
+        <input type="number" id="limite" placeholder="Ejemplo: 20">
+        <button type="button" onclick="encontrarNumerosPrimos()">Calcular</button>
+        <p id="resultadoNumerosPrimos"></p>
+    </form>
+
+    <h2>Encontrar la longitud de strings en un array</h2>
+    <form id="longitudStringsForm">
+        <label for="palabras">Ingrese palabras separadas por comas:</label>
+        <input type="text" id="palabras" placeholder="Ejemplo: Manzana, Banana, Cereza">
+        <button type="button" onclick="calcularLongitudDeStrings()">Calcular</button>
+        <p id="resultadoLongitudStrings"></p>
+    </form>
+
+    <h2>Obtener los nombres de las propiedades de un objeto</h2>
+    <form id="nombresPropiedadesForm">
+        <label for="objeto">Ingrese un objeto JSON:</label>
+        <input type="text" id="objeto" placeholder='Ejemplo: { "nombre": "John", "edad": 30, "ciudad": "Nueva York" }'>
+        <button type="button" onclick="obtenerNombresDePropiedades()">Calcular</button>
+        <p id="resultadoNombresPropiedades"></p>
+    </form>
+
+    
+      <script src="codigo.js"></script>
+    
+</body>
+</html>
